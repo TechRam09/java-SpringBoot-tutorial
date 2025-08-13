@@ -1,0 +1,18 @@
+New  --start()->  Runnable  --run()--> Running --Thread.sleep() / wait()-->Waiting --notify()--> runnable
+                                           |
+                                         stop()
+                                           |
+                                           v
+                                       Dead state [Not recommended, Deprecated]
+
+New State : when the thread is created(Thread t1 = new Thread())
+Runnable State : When ever we call start method thread go to runnable state(t1.start())
+Running State: When run method is called it is running state
+Difference between
+runnable and running is When the thread is actually running in CPU it is running state
+when the thread is executing and waiting for scheduler is runnable state.
+
+Waiting state: when we want hold the thread to wait we use sleep or wait method
+Thread comeback from waiting state runnable state using notify
+
+Dead State: from runnable we can also keep thread in dead state using stop() which is deprecated

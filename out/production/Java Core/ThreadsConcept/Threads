@@ -1,0 +1,14 @@
+what are  threads?
+when build a software it runs on hardware which contains CPU and RAM with the help of OS
+when the software wants to add 2 numbers that operation go to OS and OS sends the request to CPU and CPU does processing and provide output
+if we running big software , in our system we will be having multiple software and sometimes we want to run it on same time
+then OS should support multitasking, it is not that they are executing at the same time
+In CPU there is concept called Time Sharing , they execute the task by sharing the time of execution
+Same in case a Single Task if we want to break down the task into multiple sub task it is possible
+for ex: we using software if we are writing on something as soon as we type it is displayed and a sound it not about multitasking
+it is about dividing the task into smallest unit that is where threads are used
+
+Threads are lightweight Smallest unit of process / task is called Threads
+we multiple threads for single task / process
+they can work parallely and they share resources
+

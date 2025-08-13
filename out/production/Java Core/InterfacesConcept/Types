@@ -1,0 +1,22 @@
+There are three types of Interface
+
+1) Normal Interface :  interface with two or more methods
+ex: interface AbC{
+    void show();
+    void config();
+}
+
+
+2) Functional Interface / SAM : interface with only one method is called Functional Interfaces
+it is also called as SAM [ Single Abstract Method interface]
+ex: interface Demo{
+    void show();
+}
+
+3) Marker Interface : interface without any method is called Marker Interfaces
+ex: interface Marker{
+
+}
+
+// used during to time of serialization in java -> for allowing permission
+
